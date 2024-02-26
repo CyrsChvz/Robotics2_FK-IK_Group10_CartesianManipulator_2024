@@ -9,5 +9,5 @@ a4 = float(input("a4 = "))
 
 #Postion Vector
 x0_4 = float(input("x0_4 = "))
-y0_4
+y0_4 = float(input("y0_4 = "))
 z0_4
