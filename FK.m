@@ -13,4 +13,6 @@ d1 = float(input("d1 = ")) #20 mm
 d2 = float(input("d2 = ")) #10 mm
 d3 = float(input("d3 = ")) # 15 mm
 
-## 
+## Parametric Table 
+
+PT = 
