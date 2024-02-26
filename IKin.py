@@ -23,6 +23,6 @@ d3 = a1 - a4 - z0_4
 d1 = y0_4 - a2
 
 #Displaying the Joint Variables
-print("d1= ", np.around(d1,3))
-print("d1= ", np.around(d2,3))
+print("d1 = ", np.around(d1,3))
+print("d1 = ", np.around(d2,3))
 print("d1
