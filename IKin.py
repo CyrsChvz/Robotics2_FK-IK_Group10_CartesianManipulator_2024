@@ -17,3 +17,5 @@ z0_4 = float(input("z0_4 = "))
 d2 = x0_4 - a3
 
 #Solution 2
+d3 = a1 - a4 - z0_4
+
