@@ -11,3 +11,6 @@ a4 = float(input("a4 = "))
 x0_4 = float(input("x0_4 = "))
 y0_4 = float(input("y0_4 = "))
 z0_4 = float(input("z0_4 = "))
+
+#Inverse Kinematics using Graphical Method
+#Soltion 1
