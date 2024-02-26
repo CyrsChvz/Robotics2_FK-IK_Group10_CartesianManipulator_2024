@@ -21,3 +21,6 @@ d3 = a1 - a4 - z0_4
 
 #Solution 3
 d1 = y0_4 - a2
+
+#Displaying the Joint Variables
+print("d1= "
