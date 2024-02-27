@@ -16,4 +16,10 @@ PT = [[(0.0/180.0)*np.pi,(90.0/180.0)*np.pi,0,a1],
       [(90.0/180.0)*np.pi,(90.0/180.0)*np.pi,0,a2+d1],
       [(270.0/180.0)*np.pi,(90.0/180.0)*np.pi,0,a3+d2],
       [(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,0,a4+d3]]
-      
+
+# HTM formulae
+i = 0
+H0_1 = [[np.cos(PT[i][0]),-np.sin(PT[i][0])*np.cos(PT[i][1]),np.sin(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.cos(PT[i][0])],
+        [np.sin(PT[i][0]),np.cos(PT[i][0])*np.cos(PT[i][1]),-np.cos(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.sin(PT[i][0])],
+        [0,np.sin(PT[i][1]),np.cos(PT[i][1]),PT[i][3]],
+        [0,0,0,1]]
