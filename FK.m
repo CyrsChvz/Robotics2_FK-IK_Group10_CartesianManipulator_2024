@@ -49,3 +49,8 @@ print(H0_1)
 H1_2 = np.matrix(H1_2)
 print("H1_2= ")
 print(H1_2)
+
+H2_3 = np.matrix(H2_3)
+print("H2_3= ")
+print(H2_3)
+
