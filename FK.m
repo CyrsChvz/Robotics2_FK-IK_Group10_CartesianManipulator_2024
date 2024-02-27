@@ -42,4 +42,8 @@ H3_4 = [[np.cos(PT[i][0]),-np.sin(PT[i][0])*np.cos(PT[i][1]),np.sin(PT[i][0])*np
         [0,np.sin(PT[i][1]),np.cos(PT[i][1]),PT[i][3]],
         [0,0,0,1]]
 
+H0_1 = np.matrix(H0_1)
+print("H0_1= ")
+print(H0_1)
+
 
