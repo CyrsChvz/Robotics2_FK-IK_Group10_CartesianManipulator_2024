@@ -8,3 +8,5 @@ a4 = float(input("a4 = "))
 
 # joint variables: is mm if f, is degrees if theta
 d1 = float(input("d1 = ")) #20 mm
+d2 = float(input("d2 = "))
+d3 = float(input("d3 = "))
