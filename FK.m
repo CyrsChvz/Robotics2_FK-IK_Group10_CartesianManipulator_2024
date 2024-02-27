@@ -46,4 +46,6 @@ H0_1 = np.matrix(H0_1)
 print("H0_1= ")
 print(H0_1)
 
-
+H1_2 = np.matrix(H1_2)
+print("H1_2= ")
+print(H1_2)
