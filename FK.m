@@ -61,3 +61,7 @@ print(H3_4)
 H0_2 = np.dot(H0_1,H1_2)
 H0_3 = np.dot(H0_2,H2_3)
 H0_4 = np.dot(H0_3,H3_4)
+
+print("H0_4= ")
+print(np.matrix(np.around(H0_4,3)))
+print(H0_4)
