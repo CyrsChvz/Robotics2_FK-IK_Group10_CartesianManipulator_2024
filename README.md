@@ -16,9 +16,9 @@
 <h3 align="center">Robotics2_FK-IK_Group10_CartesianManipulator_2024</h3>
 
   <p align="center">
-    project_description
+    Project_Description
     <br />
-    <a href="https://youtu.be/jbA0z8hrmQ0"><strong>Watch a video encompassing the contents of a Cartesian Manipulator »</strong></a>
+    <a href="https://youtu.be/jbA0z8hrmQ0"><strong> Watch a video encompassing the contents of a Cartesian Manipulator »</strong></a>
     <br />
     <br />
 
