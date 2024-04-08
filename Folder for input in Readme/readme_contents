@@ -87,6 +87,12 @@ Substitute the values on the parametric table you have taken,
 the respective rows on the parametric table and their contents will be used for the htm rows they are in line with,
 substituting the angles gained from the theta, alpha, rotation and distance to the equation matrix used for finding the HTM.
 
+  4. Multiplying the Transformation Matrices of each frames you had came up with by chaining the HTM”s
+This can be done by multiplying them together in the order the joints appear in the manipulator arm, 
+starting from the base and moving towards the end effector. This gives you the final HTM that describes the
+position and orientation of the end effector relative to the base frame.
+
+
 
 
 
