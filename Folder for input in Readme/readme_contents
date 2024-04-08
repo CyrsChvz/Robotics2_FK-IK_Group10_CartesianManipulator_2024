@@ -55,6 +55,8 @@ Rule 4: Remember to make the arrows of the z and x axes easy to see in future co
       Rotate the Arm: This is akin to pointing a "finger" in the right direction, just like aiming for the treasure.
       Extend the Arm: The code also dictates how far the robot's arm needs to extend (like taking steps) to reach and grasp an object. 
 
+  By combining these instructions (pointing and reaching) into a single code (HTM), the robot's computer can precisely control where the arm goes
+  This simplifies understanding and controlling even complex robot arms with many joints, ensuring they reach their designated positions accurately. 
 7. Inverse Kinematics of cartesian manipulator description and computation
 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
