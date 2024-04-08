@@ -20,22 +20,22 @@ Lastly, determine the type of manipulator based on the number of degrees of free
 To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula.
 
 4. Kinematic Diagram and D-H Frame assignment of cartesian description and computation.
-The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
+  The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
 To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation)
 
-The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
+  The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
 
-It is frequently used in robotics, particularly industrial robot systems, and robot arms with manipulators.
+  It is frequently used in robotics, particularly industrial robot systems, and robot arms with manipulators.
 
-In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint.
+  In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint.
 
-D-H Frame Preliminary Rules
+  D-H Frame Preliminary Rules
 
-Rule 1 Decide first the 3 views you want to project on your isometric drawing
+  Rule 1 Decide first the 3 views you want to project on your isometric drawing
 
-Rule 2: Identify the center of your frames
+  Rule 2: Identify the center of your frames
 
-Rule 3 Then draw your color-coded arrows based on your decided 3 views.
+  Rule 3 Then draw your color-coded arrows based on your decided 3 views.
 
 5. D-H Parametric Table of cartesian manipulator description and computation.
 
