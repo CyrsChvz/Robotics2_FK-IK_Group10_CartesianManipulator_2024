@@ -80,7 +80,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="Kinematic Diagram and D-H Frame assignment of cartesian description and computation"> </a>
+<a name="Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation"> </a>
 # Kinematic Diagram and D-H Frame assignment of cartesian description and computation
 <div align="justify">
     
