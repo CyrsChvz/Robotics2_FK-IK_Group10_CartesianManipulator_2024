@@ -11,25 +11,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/cyrschavz/Robotics2_FK-IK_Group10_CartesianManipulator_2024">
-    <img alt="large" width="560" height="400" src="https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/05ed9ca6-ae1e-4c82-bedf-b9c20f5d360b"
-
+    <img alt="large" width="560" height="400" src="https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/bb7dc30c-e405-4a04-a016-4c8c5963a84f"
+    <a href="https://github.com/cyrschavz/Robotics2_FK-IK_Group10_CartesianManipulator_2024">
 <h3 align="center">Robotics2_FK-IK_Group10_CartesianManipulator_2024</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://drive.google.com/file/d/1h_7uCnrbAoJrcapAplV_65SiYqNWTWeF/view?usp=sharing"><strong>Watch a video encomapssing the contents of a Cartesian Manipulator »</strong></a>
+    <a href="https://youtu.be/jbA0z8hrmQ0"><strong>Watch a video encompassing the contents of a Cartesian Manipulator »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -37,61 +31,54 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Abstract of the Project">Abstract of the Project</a>
+      <a href="# Abstract of the Project">Abstract of the Project</a>
     </li>
     <li>
-      <a href="#Introduction of the Project">Introduction of the Project</a>
+      <a href="# Introduction of the Project">Introduction of the Project</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
-    <li><a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation.">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#D-H Parametric Table of cartesian manipulator description and computation.">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#HTM of a Cartesian Manipulator">HTM of a Cartesian Manipulator</a></li>
-    <li><a href="#Inverse Kinematics of cartesian manipulator description and computation.">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation.">Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="# Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
+    <li><a href="# Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation.">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="# D-H Parametric Table of cartesian manipulator description and computation.">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="# HTM of a Cartesian Manipulator">HTM of a Cartesian Manipulator</a></li>
+    <li><a href="# Inverse Kinematics of cartesian manipulator description and computation.">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="# Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation.">Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.</a></li>
   </ol>
 </details>
 
 
 
-<!-- Abstract of the Project -->
-## Abstract of the Project
+<!-- #Abstract of the Project -->
+# Abstract of the Project
+<div align="justify">
+  
+### This project investigates the basic ideas and real-world uses of a Cartesian manipulator, with an emphasis on their kinematics from a variety of angles, such as degrees of freedom (DOF), Denavit-Hartenberg (D-H) notation, Homogeneous Transformation matrices, parametric table, as well as the opposite kinematics. The research starts with an extensive:
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+</div>
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+ `Explanation of DOF`, `Utilization of D-H notation`, `Establishment of the D-H parametric table`, `Defining the transformation matrices`, `Computing inverse kinematics`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- #Introduction of the Project -->
+# Introduction of the Project
+<div align="justify">
+  
+### Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. Their beginnings can be traced back to the 1950s when they first appeared alongside other pioneering robot designs.  These early robots were developed in the United States by companies such as Unimation, which in 1961 produced the Versatran, the world's first commercially viable industrial robot. The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design. Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling. Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots. Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
+  
+</div>
 
-<!-- GETTING STARTED -->
-## Getting Started
+# Degrees of Freedom of Cartesian Manipulator
+<div align="justify">
+  
+### To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. Lastly, determine the type of manipulator based on the number of degrees of freedom. To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula. This is an example of how to list things you need to use the software and how to install them.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+</div>
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
