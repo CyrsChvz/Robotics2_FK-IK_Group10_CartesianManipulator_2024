@@ -31,16 +31,16 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="Abstract of the Project">Abstract of the Project</a>
+      <a href="#Abstract of the Project">Abstract of the Project</a>
     </li>
     <li>
-      <a href="Introduction of the Project">Introduction of the Project</a>
+      <a href="#Introduction of the Project">Introduction of the Project</a>
     </li>
-    <li><a href="# Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
-    <li><a href="# Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation.">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="# D-H Parametric Table of cartesian manipulator description and computation.">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="# HTM of a Cartesian Manipulator">HTM of a Cartesian Manipulator</a></li>
-    <li><a href="# Inverse Kinematics of cartesian manipulator description and computation.">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
+    <li><a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation.">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#D-H Parametric Table of cartesian manipulator description and computation.">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#HTM of a Cartesian Manipulator">HTM of a Cartesian Manipulator</a></li>
+    <li><a href="#Inverse Kinematics of cartesian manipulator description and computation.">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
     <li><a href="# Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation.">Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.</a></li>
   </ol>
 </details>
