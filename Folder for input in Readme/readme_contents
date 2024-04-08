@@ -52,6 +52,9 @@ Rule 4: Remember to make the arrows of the z and x axes easy to see in future co
       The y axis less important than the x and z axes
 
 5. D-H Parametric Table of cartesian manipulator description and computation.
+
+The DH parametric table is like a blueprint for robotic arms. It helps engineers understand how the parts of the arm fit 
+together and move, making it easier to design and control the robot. Using the Denavit Hartenberg Parameters we would be able to create a Dh parametric Table for a Cartesian Manipulator
   
 
 6. HTM of a Cartesian Manipulator
