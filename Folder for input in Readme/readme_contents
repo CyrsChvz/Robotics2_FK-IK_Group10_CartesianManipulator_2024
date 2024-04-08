@@ -48,7 +48,10 @@ Rule 4: Remember to make the arrows of the z and x axes easy to see in future co
 
 6. HTM of a Cartesian Manipulator
   In a treasure hunt analogy, a Hierarchical Task Manager (HTM) acts like a special code guiding a friend to hidden loot. No matter the starting point in the room, the HTM provides clear instructions in two parts:
-      
+     Direction: This part tells the friend which way to turn (left, right, up, down) to face the treasure chest.
+     Steps: Once facing the right direction, the code specifies how many steps to take to reach the treasure.
+
+  
 
 7. Inverse Kinematics of cartesian manipulator description and computation
 
