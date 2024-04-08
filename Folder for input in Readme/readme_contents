@@ -13,7 +13,7 @@ Cartesian manipulators remain an important feature of modern industrial automati
 Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
 
 3. Degrees of Freedom of Cartesian Manipulator
-To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. 
+  To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. 
 The next step is to figure out the number of joints and moving links on the manipulator. 
 After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. 
 Lastly, determine the type of manipulator based on the number of degrees of freedom.
