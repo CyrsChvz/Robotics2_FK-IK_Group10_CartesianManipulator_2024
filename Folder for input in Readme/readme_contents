@@ -21,7 +21,7 @@
 
 4. Kinematic Diagram and D-H Frame assignment of cartesian description and computation.
   The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
-To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation)
+  To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation)
 
   The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
 
