@@ -57,6 +57,10 @@ Rule 4: Remember to make the arrows of the z and x axes easy to see in future co
 
   By combining these instructions (pointing and reaching) into a single code (HTM), the robot's computer can precisely control where the arm goes
   This simplifies understanding and controlling even complex robot arms with many joints, ensuring they reach their designated positions accurately. 
+
+Homogeneous transformation matrices enable us to combine rotation matrices (which hav 3 rows and 3 columns) and displacments 
+vectors (which have 3 rows and 1 column) into a single matrix. They are an important concept of forward Kinematics.
+
 7. Inverse Kinematics of cartesian manipulator description and computation
 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
