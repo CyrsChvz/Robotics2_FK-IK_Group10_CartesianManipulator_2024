@@ -112,6 +112,11 @@ expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2)
 Proceeded to solve for the joint variable d3.  The equation for the end effector's z-coordinate (z04) was already established based on the provided diagram (z04 = a1 - a4 - d3). 
 To isolate d3 and determine its value, the equation needed to be rearranged. This involved swapping the positions of d3 and z04, resulting in a new equation: d3 = a1 - a4 - z04.
 
+To addressed the remaining joint variable, d1. To solve for d1, a redrawing of the cartesian manipulator from a top view perspective was necessary. 
+This view revealed additional information: the y-coordinate of the end effector (y04) and the x and y axes.
+
+The key element for solving d1 was the y-coordinate of the third joint (y03). Analyzing the top view revealed that y04 could be 
+expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By rearranging this equation, the solution for d1 could be obtained: d1 = y04 - a2.
 
 
 
