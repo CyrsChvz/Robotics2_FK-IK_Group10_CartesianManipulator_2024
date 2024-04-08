@@ -93,9 +93,6 @@ starting from the base and moving towards the end effector. This gives you the f
 position and orientation of the end effector relative to the base frame.
 
 
-
-
-
 7. Inverse Kinematics of cartesian manipulator description and computation
 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
