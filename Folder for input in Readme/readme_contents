@@ -140,5 +140,7 @@ expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By
 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
 
+A Graphical User Interface (GUI) calculator that computes the forward kinematics (FK) and inverse kinematics (IK) of a cartesian manipulator may be found in the GUI folder above with the GUI.py code.
+
 
 
