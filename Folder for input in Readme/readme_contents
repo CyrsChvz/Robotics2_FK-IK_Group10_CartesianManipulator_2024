@@ -36,6 +36,12 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
   Rule 2: Identify the center of your frames
 
   Rule 3 Then draw your color-coded arrows based on your decided 3 views.
+      Blue- z-axis
+      Red- x-axis
+      Green- y-axis
+  
+Rule 4: Remember to make the arrows of the z and x axes easy to see in future computation
+      The y axis less important than the x and z axes
 
 5. D-H Parametric Table of cartesian manipulator description and computation.
 
