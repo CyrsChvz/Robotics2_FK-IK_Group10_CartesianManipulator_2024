@@ -144,3 +144,11 @@ A Graphical User Interface (GUI) calculator that computes the forward kinematics
 
 
 
+Forward Kinematics (FK)
+The f_k() function is utilize to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variable (d1, d2, d3).
+
+Inverse Kinematics (IK)
+The i_k() function is utilize to calculate the joint variables (d1, d2, d3) by moving the end-effector to a desired position (X, Y, Z).
+
+
+
