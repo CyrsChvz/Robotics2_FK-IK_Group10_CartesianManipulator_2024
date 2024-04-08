@@ -60,7 +60,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- #Introduction of the Project -->
+<a name="Introduction of the Project"> </a>
 # Introduction of the Project
 <div align="justify">
   
@@ -68,6 +68,7 @@
   
 </div>
 
+<a name="Degrees of Freedom of Cartesian Manipulator"> </a>
 # Degrees of Freedom of Cartesian Manipulator
 <div align="justify">
   
