@@ -1,5 +1,13 @@
 ### input niyo lang mga laman ng read me dito
 1. Abstract of the Project
+This project investigates the bas eic ideas and real-world uses of a Cartesian manipulator, with an emphasis on their kinematics from a variety of angles, such as degrees
+of freedom (DOF), Denavit-Hartenberg (D-H) notation, homogeneous transformation matrices, parametric tables, as well as the opposite Kinematics. The research starts with an exclusive:
+
+-explanation of the DOF 
+-utilization of D-H notation
+-establishment of the D-H parametric tables
+-defining the transformation matrices
+-computing inverse kinematics 
 
 2. Introduction of the Project
   Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. 
@@ -44,6 +52,27 @@ Rule 4: Remember to make the arrows of the z and x axes easy to see in future co
       The y axis less important than the x and z axes
 
 5. D-H Parametric Table of cartesian manipulator description and computation.
+The D-H Parametric Table, which is frequently found in research publications and industrial robot manuals, is a shortcut for locating homogeneous transformation matrices.
+There are four parameters in the D-H Parametric Table:
+
+θ and α are the two parameters that are used for rotation and orientation.
+
+R and D are the two parameters that are used for position/translation.
+
+Columns = no. of parameters
+
+Rows = no. of frames - 1
+
+Denavit Hartenberg Parameters:
+
+Theta (θ) - Rotation around Zn-1 that is required to get Xn-1 to match Xn with the joint variable if joint is Revolute/Twisting joint.
+
+Alpha (α) - Rotation around Xn that is required to get Zn-1 to match Zn.
+
+d - The distance from the origin of n-1 and n frames along the Zn-1 direction with a joint variable if joint is prismatic
+
+r - The distance from the origin of n-1 and n frames along the Xn directions.
+
   
 
 6. HTM of a Cartesian Manipulator
@@ -62,8 +91,31 @@ Homogeneous transformation matrices enable us to combine rotation matrices (whic
 vectors (which have 3 rows and 1 column) into a single matrix. They are an important concept of forward Kinematics.
 
 7. Inverse Kinematics of cartesian manipulator description and computation
+The method known as "Inverse kinematics" or "IK" determines the ideal or necessary mobility of a networked system of objects to reach a specific location. IK is able to
+calculate the proper motion of a robotic arm in order to position the actuator at its terminus. IK can be turned on in 3-D animation software to allow parent objects to be 
+automatically affected by the movement of a child joint in a hierarchical character rig.
 
+For instance, an animator can naturally move and rotate the shin, thigh, and knee joints when animating a 3-D human character with IK enabled. This is accomplished by raising 
+the character's ankle joint. 
+
+Advantages: 
+
+For simulating a human arm's movement.
+For the precise end-effector placement.
+
+Disadvantage:
+
+Challenging to resolve
+ 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
+A Graphical User Interface (GUI) calculator that computes the Forward Kinematics and Inverse Kinematics 
+of a Cartesian manipulator may be found in the GUI.py code.
 
 
+
+Forward KInematics (FK)
+The f_k() function is utilize to calculate the end-effector position ( X, Y, Z ) of the manipulator from the given set of joint variables (d1, d2, d3 ).
+
+Inverse Kinematics (IK) 
+the i_k() function is utilize to calculate the joint variable ( d1, d2, d3 ) by moving the end-effector to a desired position ( X, Y, Z ).
 
