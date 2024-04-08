@@ -109,6 +109,11 @@ end effector's position vector: z04, signifying its z-coordinate, and x04, repre
 The objective was to determine the values of joint variables d2 and d3. The equation for x04 at the end effector was presented, 
 expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2). By rearranging this equation, a solution for d2 could be derived: d2 = x04 - a3.
 
+Proceeded to solve for the joint variable d3.  The equation for the end effector's z-coordinate (z04) was already established based on the provided diagram (z04 = a1 - a4 - d3). 
+To isolate d3 and determine its value, the equation needed to be rearranged. This involved swapping the positions of d3 and z04, resulting in a new equation: d3 = a1 - a4 - z04.
+
+
+
 
 
 
