@@ -1,1 +1,9 @@
 ### input niyo lang mga laman ng read me dito
+1. Abstract of the Project
+2. Introduction of the Project
+3. Degrees of Freedom of Cartesian Manipulator
+4. Kinematic Diagram and D-H Frame assignment of cartesian description and computation.
+5. D-H Parametric Table of cartesian manipulator description and computation.
+6. HTM of a Cartesian Manipulator
+7. Inverse Kinematics of cartesian manipulator description and computation
+8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
