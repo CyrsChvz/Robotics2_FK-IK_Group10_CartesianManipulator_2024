@@ -62,7 +62,8 @@ The Denavit Hartenberg Parameters as it follows :
     Alpha (α) - Rotation around Xn that is required to get Zn-1 to match Zn.
     d - The distance from the origin of n-1 and n frames along the Zn-1 direction,with a joint variable if joint is prismatic.
     r - The distance from the origin of n-1 and n frames along the Xn direction.
-  
+
+In filling up the Dh parametric table of the cartesian manipulator  start with filling out the row of theta, then alpha, after that is the column of r and lastly the columns of d.
 
 6. HTM of a Cartesian Manipulator
   In a treasure hunt analogy, a Hierarchical Task Manager (HTM) acts like a special code guiding a friend to hidden loot. No matter the starting point in the room, the HTM provides clear instructions in two parts:
