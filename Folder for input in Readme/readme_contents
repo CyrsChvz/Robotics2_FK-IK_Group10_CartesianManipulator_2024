@@ -2,7 +2,7 @@
 1. Abstract of the Project
 
 2. Introduction of the Project
-
+  Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. They originated in the 1950s, alongside other pioneering robot designs.  These early robots were created in the United States by companies such as Unimation, who manufactured the Versatran, the world's first commercially viable industrial robot, in 1961. The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design.
 3. Degrees of Freedom of Cartesian Manipulator
 
 4. Kinematic Diagram and D-H Frame assignment of cartesian description and computation.
