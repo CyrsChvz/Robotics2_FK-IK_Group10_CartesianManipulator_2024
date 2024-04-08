@@ -70,6 +70,12 @@ Here's a breakdown of how to solve for the homogeneous transformation matrix (HT
       θ (theta) which is the Rotation angle about the current z-axis.
       d (d) as the Offset distance along the current x-axis.
 
+  2. Identify the Joint Types:
+   Determine the type of joint at each connection point (usually revolute or prismatic). 
+   This helps define the appropriate rotation or translation for each transformation.   
+
+
+
 7. Inverse Kinematics of cartesian manipulator description and computation
 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
