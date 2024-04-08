@@ -61,6 +61,15 @@ Rule 4: Remember to make the arrows of the z and x axes easy to see in future co
 Homogeneous transformation matrices enable us to combine rotation matrices (which hav 3 rows and 3 columns) and displacments 
 vectors (which have 3 rows and 1 column) into a single matrix. They are an important concept of forward Kinematics.
 
+Here's a breakdown of how to solve for the homogeneous transformation matrix (HTM) of a Cartesian manipulator:
+
+  1. Leverage the Denavit-Hartenberg (DH) Convention: The DH convention provides a systematic way to define the transformations between each joint in a manipulator.
+  It uses four parameters for each joint:
+      α (alpha) which si the value of Twists in an angle between the previous and current z-axes.
+      a : Offset distance along the previous z-axis.
+      θ (theta) which is the Rotation angle about the current z-axis.
+      d (d) as the Offset distance along the current x-axis.
+
 7. Inverse Kinematics of cartesian manipulator description and computation
 
 8. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
