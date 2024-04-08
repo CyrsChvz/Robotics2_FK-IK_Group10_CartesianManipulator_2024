@@ -97,6 +97,13 @@ position and orientation of the end effector relative to the base frame.
 
 Inverse kinematics is a method to figure out the joint adjustments (like bends in an elbow) needed to
 move an arm or leg (or a robot arm) to a desired position. It's the opposite of forward kinematics, 
+which predicts how the limb would move based on joint adjustments. 
+This is especially important in robotics and animation for creating precise and natural movements.
+
+In solving the Inverse Kinematics redraw the mechanical manipulator 
+showcasing the top view and front view of the manipulator in order to get the necessary frame needed which is the base frame.
+
+
 
 
 
