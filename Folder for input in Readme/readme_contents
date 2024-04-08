@@ -5,9 +5,37 @@
   Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. 
 They originated in the 1950s, alongside other pioneering robot designs.  These early robots were created in the United States by companies such as Unimation, who manufactured the Versatran, the world's first commercially viable industrial robot, in 1961. 
 The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design.
+Cartesian manipulators found their place in applications that required high precision and repeatability. Their power comes from their simplistic design. 
+Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). 
+This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. 
+Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling.
+Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots.
+Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
+
 3. Degrees of Freedom of Cartesian Manipulator
+To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. 
+The next step is to figure out the number of joints and moving links on the manipulator. 
+After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. 
+Lastly, determine the type of manipulator based on the number of degrees of freedom.
+To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula.
 
 4. Kinematic Diagram and D-H Frame assignment of cartesian description and computation.
+The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
+To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation)
+
+The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
+
+It is frequently used in robotics, particularly industrial robot systems, and robot arms with manipulators.
+
+In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint.
+
+D-H Frame Preliminary Rules
+
+Rule 1 Decide first the 3 views you want to project on your isometric drawing
+
+Rule 2: Identify the center of your frames
+
+Rule 3 Then draw your color-coded arrows based on your decided 3 views.
 
 5. D-H Parametric Table of cartesian manipulator description and computation.
 
