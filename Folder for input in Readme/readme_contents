@@ -17,7 +17,7 @@ Their simple form allows for easy programming and maintenance, making them an af
   The next step is to figure out the number of joints and moving links on the manipulator. 
   After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. 
   Lastly, determine the type of manipulator based on the number of degrees of freedom.
-To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula.
+  To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula.
 
 4. Kinematic Diagram and D-H Frame assignment of cartesian description and computation.
   The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
