@@ -74,6 +74,20 @@ Here's a breakdown of how to solve for the homogeneous transformation matrix (HT
    Determine the type of joint at each connection point (usually revolute or prismatic). 
    This helps define the appropriate rotation or translation for each transformation.   
 
+  3. Build Individual Transformation Matrices
+
+    For each joint, create a 4x4 HTM using its DH parameters. The general form of the matrix is:
+
+| cos(θ)  -sin(θ)*cos(α)  sin(θ)*sin(α)  a*cos(θ) |
+| sin(θ)   cos(θ)*cos(α) -cos(θ)*sin(α)  a*sin(θ) |
+|  0         sin(α)          cos(α)         d     |
+|  0          0              0               1   |
+
+Substitute the values on the parametric table you have taken,
+the respective rows on the parametric table and their contents will be used for the htm rows they are in line with,
+substituting the angles gained from the theta, alpha, rotation and distance to the equation matrix used for finding the HTM.
+
+
 
 
 7. Inverse Kinematics of cartesian manipulator description and computation
