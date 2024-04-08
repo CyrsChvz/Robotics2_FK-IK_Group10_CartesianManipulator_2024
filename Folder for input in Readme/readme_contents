@@ -103,11 +103,12 @@ This is especially important in robotics and animation for creating precise and 
 In solving the Inverse Kinematics redraw the mechanical manipulator 
 showcasing the top view and front view of the manipulator in order to get the necessary frame needed which is the base frame.
 
-By analyzing the front view of a cartesian manipulator. This view provided known values for two elements of 
-the end effector's position vector: z04 (its z-coordinate) and x04 (its horizontal x-coordinate). Since the focus was on the front view, the y-coordinate (y04) of the end effector remained hidden.
+By analyzing the cartesian manipulator's front view. This view offered known values for two crucial elements of the 
+end effector's position vector: z04, signifying its z-coordinate, and x04, representing its horizontal x-coordinate. Due to the focus on the front view, the end effector's y-coordinate (y04) remained obscured.
 
-The goal was to solve for the joint variables, d2 and d3. The equation for x04 at the end effector was expressed as the sum of link length a3 and joint 
-variable d2 (x04 = a3 + d2). By rearranging this equation, the solution for d2 could be derived: d2 = x04 - a3.
+The objective was to determine the values of joint variables d2 and d3. The equation for x04 at the end effector was presented, 
+expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2). By rearranging this equation, a solution for d2 could be derived: d2 = x04 - a3.
+
 
 
 
