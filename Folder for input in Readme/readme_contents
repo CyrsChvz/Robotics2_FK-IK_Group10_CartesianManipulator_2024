@@ -2,7 +2,7 @@
 1. Abstract of the Project
 
 2. Introduction of the Project
-
+Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. Their beginnings can be traced back to the 1950s, when they first appeared alongside other pioneering robot designs [1].  These early robots were developed in the United States by businesses such as Unimation, which in 1961 produced the Versatran, the world's first commercially viable industrial robot [2].  The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design.
   Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). 
   This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. 
   Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling.
