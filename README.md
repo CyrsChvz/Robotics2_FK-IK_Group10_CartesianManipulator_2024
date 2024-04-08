@@ -31,14 +31,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="# Abstract of the Project">Abstract of the Project</a>
+      <a href="Abstract of the Project">Abstract of the Project</a>
     </li>
     <li>
-      <a href="# Introduction of the Project">Introduction of the Project</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="Introduction of the Project">Introduction of the Project</a>
     </li>
     <li><a href="# Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
     <li><a href="# Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation.">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
@@ -51,7 +47,7 @@
 
 
 
-<!-- #Abstract of the Project -->
+<a name="Abstract of the Project"> </a>
 # Abstract of the Project
 <div align="justify">
   
