@@ -14,7 +14,7 @@ Their simple form allows for easy programming and maintenance, making them an af
 
 3. Degrees of Freedom of Cartesian Manipulator
   To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. 
-The next step is to figure out the number of joints and moving links on the manipulator. 
+  The next step is to figure out the number of joints and moving links on the manipulator. 
 After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. 
 Lastly, determine the type of manipulator based on the number of degrees of freedom.
 To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula.
