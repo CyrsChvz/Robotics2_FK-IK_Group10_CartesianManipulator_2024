@@ -3,11 +3,11 @@
 
 2. Introduction of the Project
 
-Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). 
-This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. 
-Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling.
-Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots.
-Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
+  Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). 
+  This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. 
+  Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling.
+  Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots.
+  Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
 
 3. Degrees of Freedom of Cartesian Manipulator
   To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. 
