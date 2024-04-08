@@ -37,11 +37,11 @@
       <a href="#Introduction of the Project">Introduction of the Project</a>
     </li>
     <li><a href="#Degrees of Freedom of Cartesian Manipulator">Degrees of Freedom of Cartesian Manipulator</a></li>
-    <li><a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation.">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="#D-H Parametric Table of cartesian manipulator description and computation.">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation">Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#D-H Parametric Table of cartesian manipulator description and computation">D-H Parametric Table of (assigned mechanical manipulator) description and computation.</a></li>
     <li><a href="#HTM of a Cartesian Manipulator">HTM of a Cartesian Manipulator</a></li>
-    <li><a href="#Inverse Kinematics of cartesian manipulator description and computation.">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
-    <li><a href="# Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation.">Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#Inverse Kinematics of cartesian manipulator description and computation">Inverse Kinematics of (assigned mechanical manipulator) description and computation.</a></li>
+    <li><a href="#Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation">Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.</a></li>
   </ol>
 </details>
 
@@ -51,7 +51,7 @@
 # Abstract of the Project
 <div align="justify">
   
-### This project investigates the basic ideas and real-world uses of a Cartesian manipulator, with an emphasis on their kinematics from a variety of angles, such as degrees of freedom (DOF), Denavit-Hartenberg (D-H) notation, Homogeneous Transformation matrices, parametric table, as well as the opposite kinematics. The research starts with an extensive:
+This project investigates the basic ideas and real-world uses of a Cartesian manipulator, with an emphasis on their kinematics from a variety of angles, such as degrees of freedom (DOF), Denavit-Hartenberg (D-H) notation, Homogeneous Transformation matrices, parametric table, as well as the opposite kinematics. The research starts with an extensive:
 
 </div>
 
@@ -64,53 +64,174 @@
 # Introduction of the Project
 <div align="justify">
   
-### Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. Their beginnings can be traced back to the 1950s when they first appeared alongside other pioneering robot designs.  These early robots were developed in the United States by companies such as Unimation, which in 1961 produced the Versatran, the world's first commercially viable industrial robot. The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design. Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling. Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots. Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
+Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. Their beginnings can be traced back to the 1950s when they first appeared alongside other pioneering robot designs.  These early robots were developed in the United States by companies such as Unimation, which in 1961 produced the Versatran, the world's first commercially viable industrial robot. The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design. Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling. Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots. Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
   
 </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="Degrees of Freedom of Cartesian Manipulator"> </a>
 # Degrees of Freedom of Cartesian Manipulator
 <div align="justify">
   
-### To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. Lastly, determine the type of manipulator based on the number of degrees of freedom. To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula. This is an example of how to list things you need to use the software and how to install them.
+To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. Lastly, determine the type of manipulator based on the number of degrees of freedom. To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula. This is an example of how to list things you need to use the software and how to install them.
 
 </div>
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Installation
+<a name="Kinematic Diagram and D-H Frame assignment of cartesian description and computation"> </a>
+# Kinematic Diagram and D-H Frame assignment of cartesian description and computation
+<div align="justify">
+    
+ The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+ To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation)
+ The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
+ It is frequently used in robotics, particularly industrial robot systems, and robot arms with manipulators.
+ In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint.
+
+## D-H Frame Preliminary Rules
+
+### Rule 1 Decide first the 3 views you want to project on your isometric drawing
+
+### Rule 2: Identify the center of your frames
+
+### Rule 3 Then draw your color-coded arrows based on your decided 3 views.
+    Blue- z-axis
+    Red- x-axis
+    Green- y-axis
+  
+### Rule 4: Remember to make the arrows of the z and x axes easy to see in future computation
+The y-axis is less important than the x and z axes
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<a name="D-H Parametric Table of cartesian manipulator description and computation"> </a>
+# D-H Parametric Table of cartesian manipulator description and computation
+<div align="justify">
+    
+The DH parametric table is like a blueprint for robotic arms. It helps engineers understand how the parts of the arm fit together and move, making it easier to design and control the robot. Using the Denavit Hartenberg Parameters we would be able to create a Dh parametric Table for a Cartesian Manipulator
 
+</div>
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### The Denavit Hartenberg Parameters as it follows :
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<div align="left">
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+    Theta (θ) - Rotation around Zn-1 that is required to get Xn-1 to match Xn, with the joint variable, if joint is revolute/twisting jont.
+    Alpha (α) - Rotation around Xn that is required to get Zn-1 to match Zn.
+    d - The distance from the origin of n-1 and n frames along the Zn-1 direction, with a joint variable if joint is prismatic.
+    r - The distance from the origin of n-1 and n frames along the Xn direction.
+
+</div>
+
+<div align="justify">
+    
+### In filling up the Dh parametric table of the cartesian manipulator  start with filling out the row of theta, then alpha, after that is the column of r and lastly the columns of d.
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<a name="HTM of a Cartesian Manipulator"> </a>
+# HTM of a Cartesian Manipulator
+<div align="justify">
 
+In a treasure hunt analogy, a Hierarchical Task Manager (HTM) acts like a special code guiding a friend to hidden loot. No matter the starting point in the room, the HTM provides clear instructions in two parts:
+     
+Direction: This part tells the friend which way to turn (left, right, up, down) to face the treasure chest.
+Steps: Once facing the right direction, the code specifies how many steps to take to reach the treasure.
+
+Now, imagine a robotic arm replacing the treasure in the room. HTMs function similarly but in a 3D space, instructing the robot's computer on two key actions:
+Rotate the Arm: This is akin to pointing a "finger" in the right direction, just like aiming for the treasure.
+Extend the Arm: The code also dictates how far the robot's arm needs to extend (like taking steps) to reach and grasp an object. 
+
+By combining these instructions (pointing and reaching) into a single code (HTM), the robot's computer can precisely control where the arm goes
+This simplifies understanding and controlling even complex robot arms with many joints, ensuring they reach their designated positions accurately. 
+
+Homogeneous transformation matrices enable us to combine rotation matrices (which have 3 rows and 3 columns) and displacement 
+vectors (which have 3 rows and 1 column) into a single matrix. They are an important concept of forward Kinematics.
+
+## Here's a breakdown of how to solve for the homogeneous transformation matrix (HTM) of a Cartesian manipulator:
+
+### 1. Leverage the Denavit-Hartenberg (DH) Convention: The DH convention provides a systematic way to define the transformations between each joint in a manipulator. It uses four parameters for each joint:
+      
+      α (alpha) which si the value of Twists in an angle between the previous and current z-axes.
+      a : Offset distance along the previous z-axis.
+      θ (theta) which is the Rotation angle about the current z-axis.
+      d (d) as the Offset distance along the current x-axis.
+
+### 2. Identify the Joint Types:
+Determine the type of joint at each connection point (usually revolute or prismatic). This helps define the appropriate rotation or translation for each transformation.   
+
+### 3. Build Individual Transformation Matrices
+
+For each joint, create a 4x4 HTM using its DH parameters. The general form of the matrix is:
+
+    | cos(θ)  -sin(θ)*cos(α)  sin(θ)*sin(α)  a*cos(θ) |
+    | sin(θ)   cos(θ)*cos(α) -cos(θ)*sin(α)  a*sin(θ) |
+    |  0         sin(α)          cos(α)         d     |
+    |  0          0              0               1   |
+
+Substitute the values on the parametric table you have taken,
+the respective rows on the parametric table and their contents will be used for the HTM rows they are in line with,
+substituting the angles gained from the theta, alpha, rotation and distance to the equation matrix used for finding the HTM.
+
+### 4. Multiplying the Transformation Matrices of each frame you had come up with by chaining the HTM”s. This can be done by multiplying them together in the order the joints appear in the manipulator arm, starting from the base and moving towards the end effector. This gives you the final HTM that describes the position and orientation of the end effector relative to the base frame.
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="Inverse Kinematics of cartesian manipulator description and computation"> </a>
+# Inverse Kinematics of cartesian manipulator description and computation
+
+<div align="justify">
+    
+Inverse kinematics is a method to figure out the joint adjustments (like bends in an elbow) needed to
+move an arm or leg (or a robot arm) to a desired position. It's the opposite of forward kinematics, 
+which predicts how the limb would move based on joint adjustments. 
+This is especially important in robotics and animation for creating precise and natural movements.
+
+In solving the Inverse Kinematics redraw the mechanical manipulator 
+showcasing the top view and front view of the manipulator in order to get the necessary frame needed which is the base frame.
+
+By analyzing the cartesian manipulator's front view. This view offered known values for two crucial elements of the 
+end effector's position vector: z04, signifying its z-coordinate, and x04, representing its horizontal x-coordinate. Due to the focus on the front view, the end effector's y-coordinate (y04) remained obscured.
+
+The objective was to determine the values of joint variables d2 and d3. The equation for x04 at the end effector was presented, 
+expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2). By rearranging this equation, a solution for d2 could be derived: d2 = x04 - a3.
+
+Proceeded to solve for the joint variable d3.  The equation for the end effector's z-coordinate (z04) was already established based on the provided diagram (z04 = a1 - a4 - d3). 
+To isolate d3 and determine its value, the equation needed to be rearranged. This involved swapping the positions of d3 and z04, resulting in a new equation: d3 = a1 - a4 - z04.
+
+To address the remaining joint variable, d1. To solve for d1, a redrawing of the cartesian manipulator from a top view perspective was necessary. 
+This view revealed additional information: the y-coordinate of the end effector (y04) and the x and y axes.
+
+The key element for solving d1 was the y-coordinate of the third joint (y03). Analyzing the top view revealed that y04 could be 
+expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By rearranging this equation, the solution for d1 could be obtained: d1 = y04 - a2.
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation"> </a>
+# Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
+
+<div align="justify">
+    
+A Graphical User Interface (GUI) calculator that computes the forward kinematics (FK) and inverse kinematics (IK) of a cartesian manipulator may be found in the GUI folder above with the GUI.py code.
+
+Forward Kinematics (FK)
+The f_k() function is utilize to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variable (d1, d2, d3).
+
+Inverse Kinematics (IK)
+The i_k() function is utilize to calculate the joint variables (d1, d2, d3) by moving the end-effector to a desired position (X, Y, Z).
+
+</div>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -118,54 +239,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## References
 
 * []()
 * []()
