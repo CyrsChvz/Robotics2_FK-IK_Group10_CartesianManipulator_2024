@@ -55,7 +55,25 @@ This project investigates the basic ideas and real-world uses of a Cartesian man
 
 </div>
 
- `Explanation of DOF`, `Utilization of D-H notation`, `Establishment of the D-H parametric table`, `Defining the transformation matrices`, `Computing inverse kinematics`
+<div>
+    
+ `Explanation of DOF`
+</div>
+<div>
+    
+ `Utilization of D-H notation`
+</div>
+<div>
+
+ `Establishment of the D-H parametric table`
+</div>
+<div>
+
+ `Defining the transformation matrices`
+</div>
+<div>
+
+ `Computing inverse kinematics`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,8 +121,26 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
     Green- y-axis
   
 ### Rule 4: Remember to make the arrows of the z and x axes easy to see in future computation
-The y-axis is less important than the x and z axes
+    The y-axis is less important than the x and z axes
 
+## D-H Frame Rules
+
+### NOTE: THE COUNTING OF FRAMES STARTS FROM 0 (FROM THE FORMULA N-1)
+    Coding
+    Rule 1: The Z axis must be the axis of rotation for a revolute/twisting, or the direction of translation for a prismatic joint. (Labels starts from Z0)
+![zaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/4b7ff0d5-2072-4309-8dda-53d5e8b4b87c)
+
+    Rule 2: The X axis must be perpendicular both to its own Z axis, and the Z axis of the frame before it. (Labels starts from X0)
+![xaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/87e45ec4-e768-494c-834f-1bfa41e29ffb)
+
+    Rule 3: Each X-axis must intersect the Z-axis of the frame before it. 
+    Rules for complying with Rule 3: Rotate the axis until it hits the other.
+    Or translate the axis until it hits the other.
+![xaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/87e45ec4-e768-494c-834f-1bfa41e29ffb)
+
+    Rule 4: All frames must follow the right-hand rule (Labels starts from Y0)
+   ![dh](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/16d5305d-c432-452e-a01e-d1beb04f42d7)
+ 
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -173,14 +209,40 @@ For each joint, create a 4x4 HTM using its DH parameters. The general form of th
 
     | cos(θ)  -sin(θ)*cos(α)  sin(θ)*sin(α)  a*cos(θ) |
     | sin(θ)   cos(θ)*cos(α) -cos(θ)*sin(α)  a*sin(θ) |
-    |  0         sin(α)          cos(α)         d     |
-    |  0          0              0               1   |
+    |  0          sin(α)          cos(α)        d     |
+    |  0            0               0           1     |
 
 Substitute the values on the parametric table you have taken,
 the respective rows on the parametric table and their contents will be used for the HTM rows they are in line with,
 substituting the angles gained from the theta, alpha, rotation and distance to the equation matrix used for finding the HTM.
 
 ### 4. Multiplying the Transformation Matrices of each frame you had come up with by chaining the HTM”s. This can be done by multiplying them together in the order the joints appear in the manipulator arm, starting from the base and moving towards the end effector. This gives you the final HTM that describes the position and orientation of the end effector relative to the base frame.
+
+</div>
+
+<div align="center">
+    
+    | cos(0)  -sin(0)*cos(270)  sin(0)*sin(270)  0*cos(0) |
+    | sin(0)   cos(0)*cos(270) -cos(0)*sin(270)  0*sin(0) |
+    |  0          sin(270)          cos(α)         a1     |
+    |  0             0                0             1     |
+
+    | cos(270)  -sin(270)*cos(0)  sin(270)*sin(0)  0*cos(270) |
+    | sin(270)   cos(270)*cos(0) -cos(270)*sin(0)  a*sin(270) |
+    |  0          sin(0)              cos(0)        a2 + d1   |
+    |  0            0                   0               1     |
+
+    | cos(90)  -sin(90)*cos(270)  sin(θ)*sin(90)  0*cos(90) |
+    | sin(90)   cos(90)*cos(90)  -cos(θ)*sin(90)  0*sin(90) |
+    |  0           sin(270)          cos(90)       a3 + d2  |
+    |  0              0                0              1     |
+
+    | cos(0)  -sin(0)*cos(0)  sin(0)*sin(0)  0*cos(0)  |
+    | sin(0)   cos(0)*cos(0) -cos(0)*sin(0)  0*sin(90) |
+    |  0          sin(α)          cos(α)      a4 +d3   |
+    |  0            0               0           1      |
+    
+![htm](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/0623c414-ca8a-4ba3-8470-85a3016b8bc9)
 
 </div>
 
@@ -213,6 +275,12 @@ This view revealed additional information: the y-coordinate of the end effector 
 
 The key element for solving d1 was the y-coordinate of the third joint (y03). Analyzing the top view revealed that y04 could be 
 expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By rearranging this equation, the solution for d1 could be obtained: d1 = y04 - a2.
+
+</div>
+
+<div align="center">
+    
+![ik](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/18fd4168-7dc0-42a1-8d80-bd9052211b6a)
 
 </div>
 
