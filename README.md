@@ -265,16 +265,22 @@ By analyzing the cartesian manipulator's front view. This view offered known val
 end effector's position vector: z04, signifying its z-coordinate, and x04, representing its horizontal x-coordinate. Due to the focus on the front view, the end effector's y-coordinate (y04) remained obscured.
 
 The objective was to determine the values of joint variables d2 and d3. The equation for x04 at the end effector was presented, 
-expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2). By rearranging this equation, a solution for d2 could be derived: d2 = x04 - a3.
+expressing it as the sum of link length a3 and joint variable d2 (x04 = a3 + d2). By rearranging this equation, a solution for d2 could be derived: 
+
+    d2 = x04 - a3.
 
 Proceeded to solve for the joint variable d3.  The equation for the end effector's z-coordinate (z04) was already established based on the provided diagram (z04 = a1 - a4 - d3). 
-To isolate d3 and determine its value, the equation needed to be rearranged. This involved swapping the positions of d3 and z04, resulting in a new equation: d3 = a1 - a4 - z04.
+To isolate d3 and determine its value, the equation needed to be rearranged. This involved swapping the positions of d3 and z04, resulting in a new equation: 
 
-To address the remaining joint variable, d1. To solve for d1, a redrawing of the cartesian manipulator from a top view perspective was necessary. 
+    d3 = a1 - a4 - z04.
+
+To address the remaining joint variable, d1. To solve for d1, a redrawing of the cartesian manipulator from a top-view perspective was necessary. 
 This view revealed additional information: the y-coordinate of the end effector (y04) and the x and y axes.
 
 The key element for solving d1 was the y-coordinate of the third joint (y03). Analyzing the top view revealed that y04 could be 
-expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By rearranging this equation, the solution for d1 could be obtained: d1 = y04 - a2.
+expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By rearranging this equation, the solution for d1 could be obtained: 
+
+    d1 = y04 - a2.
 
 </div>
 
@@ -294,21 +300,12 @@ expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By
 A Graphical User Interface (GUI) calculator that computes the forward kinematics (FK) and inverse kinematics (IK) of a cartesian manipulator may be found in the GUI folder above with the GUI.py code.
 
 Forward Kinematics (FK)
-The f_k() function is utilize to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variable (d1, d2, d3).
+The f_k() function is utilized to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variable (d1, d2, d3).
 
 Inverse Kinematics (IK)
-The i_k() function is utilize to calculate the joint variables (d1, d2, d3) by moving the end-effector to a desired position (X, Y, Z).
+The i_k() function is utilized to calculate the joint variables (d1, d2, d3) by moving the end-effector to a desired position (X, Y, Z).
 
 </div>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-- [ ] Nested Feature
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
