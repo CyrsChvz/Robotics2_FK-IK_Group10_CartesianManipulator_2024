@@ -6,7 +6,6 @@ ps. open folder "MIdterm Project/Cartesian_GUI_Calculator", then click "Midterm 
     
 ![XSIZnr](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/80993792-9725-4d53-af5e-9835d461c6fc)
 ![XSIZnr](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/80993792-9725-4d53-af5e-9835d461c6fc)
-![XSIZnr](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/80993792-9725-4d53-af5e-9835d461c6fc)
 
 </div>
 
