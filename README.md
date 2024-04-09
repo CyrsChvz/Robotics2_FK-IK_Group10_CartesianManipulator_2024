@@ -2,6 +2,14 @@
 # Please download the whole "Cartesian_GUI_Calculator" folder and its content for the program to run properly in Python, Thank you!
 ps. open folder "MIdterm Project/Cartesian_GUI_Calculator", then click "Midterm Project" above on the directory name, make sure that all the contents of the "Cartesian_GUI_Calculator" are downloaded and compiled at the same folder for the program to run properly. Again, thank you!
 
+<div align="center">
+    
+![XSIZnr](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/80993792-9725-4d53-af5e-9835d461c6fc)
+![XSIZnr](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/80993792-9725-4d53-af5e-9835d461c6fc)
+![XSIZnr](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/80993792-9725-4d53-af5e-9835d461c6fc)
+
+</div>
+
 ![GitHub forks](https://img.shields.io/github/forks/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024?style=for-the-badge&logo=github&logoColor=%23ff0000)
 ![GitHub forks](https://img.shields.io/github/stars/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024?style=for-the-badge&logo=github&logoColor=%23ff0000)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024?style=for-the-badge&logo=github&logoColor=%23ff0000)
@@ -19,7 +27,7 @@ ps. open folder "MIdterm Project/Cartesian_GUI_Calculator", then click "Midterm 
   <p align="center">
     Project_Description
     <br />
-    <a href="https://youtu.be/jbA0z8hrmQ0"><strong> Watch a video encompassing the contents of a Cartesian Manipulator »</strong></a>
+    <a href="https://drive.google.com/file/d/1h_7uCnrbAoJrcapAplV_65SiYqNWTWeF/view?usp=sharing"><strong> Watch a video encompassing the contents of a Cartesian Manipulator »</strong></a>
     <br />
     <br />
 
