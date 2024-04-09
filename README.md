@@ -1,5 +1,6 @@
 <a name="readme-top"> </a>
 # Please download the whole "Cartesian_GUI_Calculator" folder and its content for the program to run properly in Python, Thank you!
+ps. open folder "MIdterm Project/Cartesian_GUI_Calculator", then click "Midterm Project" above on the directory name, make sure the all the contents of the "Cartesian_GUI_Calculator" are downloaded and compiled at the same folder for the program to open properly. Again, thank you!
 
 ![GitHub forks](https://img.shields.io/github/forks/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024?style=for-the-badge&logo=github&logoColor=%23ff0000)
 ![GitHub forks](https://img.shields.io/github/stars/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024?style=for-the-badge&logo=github&logoColor=%23ff0000)
