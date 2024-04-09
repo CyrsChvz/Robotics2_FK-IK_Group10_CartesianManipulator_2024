@@ -63,9 +63,8 @@ This project investigates the basic ideas and real-world uses of a Cartesian man
 
 </div>
 
-<div>
-    
- `Explanation of DOF`
+<a href="#Degrees of Freedom of Cartesian Manipulator">`Explanation of DOF`</a>
+
 </div>
 <div>
     
@@ -138,10 +137,13 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 
 ### NOTE: THE COUNTING OF FRAMES STARTS FROM 0 (FROM THE FORMULA N-1)
     Coding
-    Rule 1: The Z axis must be the axis of rotation for a revolute/twisting, or the direction of translation for a prismatic joint. (Labels starts from Z0)
+    Rule 1: The Z axis must be the axis of rotation for a revolute/twisting, 
+    or the direction of translation for a prismatic joint. (Labels starts from Z0)
+    
 ![zaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/4b7ff0d5-2072-4309-8dda-53d5e8b4b87c)
 
-    Rule 2: The X axis must be perpendicular both to its own Z axis, and the Z axis of the frame before it. (Labels starts from X0)
+    Rule 2: The X axis must be perpendicular both to its own Z axis, and the 
+    Z axis of the frame before it. (Labels starts from X0)
 ![xaxis](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/87e45ec4-e768-494c-834f-1bfa41e29ffb)
 
     Rule 3: Each X-axis must intersect the Z-axis of the frame before it. 
@@ -168,9 +170,14 @@ The DH parametric table is like a blueprint for robotic arms. It helps engineers
 
 <div align="left">
 
-    Theta (θ) - Rotation around Zn-1 that is required to get Xn-1 to match Xn, with the joint variable, if joint is revolute/twisting jont.
+    Theta (θ) - Rotation around Zn-1 that is required to get Xn-1 to match Xn, with the joint 
+    variable, if joint is revolute/twisting jont.
+    
     Alpha (α) - Rotation around Xn that is required to get Zn-1 to match Zn.
-    d - The distance from the origin of n-1 and n frames along the Zn-1 direction, with a joint variable if joint is prismatic.
+    
+    d - The distance from the origin of n-1 and n frames along the Zn-1 direction, 
+    with a joint variable if joint is prismatic.
+    
     r - The distance from the origin of n-1 and n frames along the Xn direction.
 
 </div>
