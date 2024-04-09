@@ -68,19 +68,23 @@ This project investigates the basic ideas and real-world uses of a Cartesian man
 </div>
 <div>
     
- `Utilization of D-H notation`
+<a href="#Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation">`Utilization of D-H notation`</a>    
+
 </div>
 <div>
 
- `Establishment of the D-H parametric table`
+<a href="#D-H Parametric Table of cartesian manipulator description and computation">`Establishment of the D-H parametric table`</a>  
+ 
 </div>
 <div>
 
- `Defining the transformation matrices`
+<a href="#HTM of a Cartesian Manipulator">`Defining the transformation matrices`</a>  
+ 
 </div>
 <div>
 
- `Computing inverse kinematics`
+<a href="#Inverse Kinematics of cartesian manipulator description and computation">`Computing inverse kinematics`</a>  
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
