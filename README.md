@@ -1,6 +1,6 @@
 <a name="readme-top"> </a>
 # Please download the whole "Cartesian_GUI_Calculator" folder and its content for the program to run properly in Python, Thank you!
-ps. open folder "MIdterm Project/Cartesian_GUI_Calculator", then click "Midterm Project" above on the directory name, make sure that all the contents of the "Cartesian_GUI_Calculator" are downloaded and compiled at the same folder for the program to run properly. Again, thank you!
+ps. open folder "Midterm Project/Cartesian_GUI_Calculator", then click "Midterm Project" above on the directory name, make sure that all the contents of the "Cartesian_GUI_Calculator" are downloaded and compiled at the same folder for the program to run properly. Again, thank you!
 
 <div align="center">
     
