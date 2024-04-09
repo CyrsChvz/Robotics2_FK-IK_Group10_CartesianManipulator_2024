@@ -117,10 +117,13 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 ### Rule 2: Identify the center of your frames
 
 ### Rule 3 Then draw your color-coded arrows based on your decided 3 views.
+ ![rgb](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/81ea8b50-e43f-41f6-b446-9cb2dab1c1d4)
+ 
     Blue- z-axis
     Red- x-axis
     Green- y-axis
-  
+
+
 ### Rule 4: Remember to make the arrows of the z and x axes easy to see in future computation
     The y-axis is less important than the x and z axes
 
@@ -298,16 +301,22 @@ expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By
 
 <div align="justify">
     
-A Graphical User Interface (GUI) calculator that computes the forward kinematics (FK) and inverse kinematics (IK) of a cartesian manipulator may be found in the GUI folder above with the GUI.py code.
+A Graphical User Interface (GUI) calculator that computes the forward kinematics (FK) and inverse kinematics (IK) of a cartesian manipulator may be found in the "Cartesian_GUI_Calculator" folder above with the "Group_10_CARTESIAN-Calculator.py" code.
 
 Forward Kinematics (FK)
-The f_k() function is utilized to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variable (d1, d2, d3).
+The f_k() function is utilized to calculate the end-effector position (X, Y, Z) of the manipulator from  the given set of joint variables (d1, d2, d3).
 
 Inverse Kinematics (IK)
 The i_k() function is utilized to calculate the joint variables (d1, d2, d3) by moving the end-effector to a desired position (X, Y, Z).
 
 </div>
 
+<div align="center">
+
+![calcu](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/9c2d56db-303c-4c9c-b63a-ed44b02a4691)
+![uu](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/4dc36e79-e177-4aae-bbb4-9a3c76f55e4e)
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
