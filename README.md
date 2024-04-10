@@ -56,7 +56,7 @@ ps. Open the folder "Midterm Project/Cartesian_GUI_Calculator", then click "Midt
 
 
 <a name="Abstract of the Project"> </a>
-# Abstract of the Project
+# I. Abstract of the Project
 <div align="justify">
   
 This project investigates the basic ideas and real-world uses of a Cartesian manipulator, with an emphasis on their kinematics from a variety of angles, such as degrees of freedom (DOF), Denavit-Hartenberg (D-H) notation, Homogeneous Transformation matrices, parametric table, as well as the opposite kinematics. The research starts with an extensive:
@@ -90,7 +90,7 @@ This project investigates the basic ideas and real-world uses of a Cartesian man
 
 
 <a name="Introduction of the Project"> </a>
-# Introduction of the Project
+# II. Introduction of the Project
 <div align="justify">
   
 Cartesian manipulators, the tireless workhorses of manufacturing floors, have been present since industrial robotics' inception. Their beginnings can be traced back to the 1950s when they first appeared alongside other pioneering robot designs.  These early robots were developed in the United States by companies such as Unimation, which in 1961 produced the Versatran, the world's first commercially viable industrial robot. The Versatran was not a cartesian manipulator, but its contemporaries, which had linear actuators on each axis, paved the way for the design. Cartesian manipulators, unlike robots with rotating joints, move in straight lines along each of the three axes (x, y, z). This enables for extremely exact positioning of the end effector, which is a tool or gripper attached to the arm. This precision makes them suitable for jobs like pick-and-place procedures, in which parts must be moved quickly and precisely from one spot to another. Cartesian manipulators continue to be useful in assembly lines, machine tending, and material handling. Cartesian manipulators remain an important feature of modern industrial automation, despite their limited reach and flexibility when compared to advanced robots. Their simple form allows for easy programming and maintenance, making them an affordable alternative for a wide range of industrial activities.
@@ -100,7 +100,7 @@ Cartesian manipulators, the tireless workhorses of manufacturing floors, have be
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="Degrees of Freedom of Cartesian Manipulator"> </a>
-# Degrees of Freedom of Cartesian Manipulator
+# III. Degrees of Freedom of Cartesian Manipulator
 <div align="justify">
   
 To solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it is spatial or planar with the help of Grubler’s Criterion. Lastly, determine the type of manipulator based on the number of degrees of freedom. To calculate the degrees of freedom of the Cartesian Manipulator, use Grubler's Formula. This is an example of how to list things you need to use the software and how to install them.
@@ -110,7 +110,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="Kinematic Diagram and D-H Frame assignment of cartesian manipulator description and computation"> </a>
-# Kinematic Diagram and D-H Frame assignment of cartesian description and computation
+# IV. Kinematic Diagram and D-H Frame assignment of cartesian description and computation
 <div align="justify">
     
  The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.
@@ -163,7 +163,7 @@ To solve a DOF of a specific manipulator the first thing to do is to determine w
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="D-H Parametric Table of cartesian manipulator description and computation"> </a>
-# D-H Parametric Table of cartesian manipulator description and computation
+# V. D-H Parametric Table of cartesian manipulator description and computation
 <div align="justify">
     
 The DH parametric table is like a blueprint for robotic arms. It helps engineers understand how the parts of the arm fit together and move, making it easier to design and control the robot. Using the Denavit Hartenberg Parameters we would be able to create a Dh parametric Table for a Cartesian Manipulator
@@ -206,7 +206,7 @@ The DH parametric table is like a blueprint for robotic arms. It helps engineers
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="HTM of a Cartesian Manipulator"> </a>
-# HTM of a Cartesian Manipulator
+# VI. HTM of a Cartesian Manipulator
 <div align="justify">
 
 In a treasure hunt analogy, a Hierarchical Task Manager (HTM) acts like a special code guiding a friend to hidden loot. No matter the starting point in the room, the HTM provides clear instructions in two parts:
@@ -282,7 +282,7 @@ substituting the angles gained from the theta, alpha, rotation and distance to t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="Inverse Kinematics of cartesian manipulator description and computation"> </a>
-# Inverse Kinematics of cartesian manipulator description and computation
+# VII. Inverse Kinematics of cartesian manipulator description and computation
 
 <div align="justify">
     
@@ -326,7 +326,7 @@ expressed as the sum of link length a2 and joint variable d1 (y04 = a2 + d1). By
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation"> </a>
-# Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
+# VIII. Forward and Inverse Kinematics GUl calculator of cartesian manipulator description and computation
 
 <div align="justify">
     
@@ -350,7 +350,7 @@ The i_k() function is utilized to calculate the joint variables (d1, d2, d3) by 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-# References
+# |References|
 
 * Everything About the Degrees of Freedom of a Robot | Mecharithm mecharithm.com
 * ECE447: Robotics Engineering - Lecture 2: Introduction to Robot Manipulator feng.stafpu.bu.eg
