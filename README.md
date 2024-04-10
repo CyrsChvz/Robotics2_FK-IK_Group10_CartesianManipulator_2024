@@ -193,11 +193,12 @@ The DH parametric table is like a blueprint for robotic arms. It helps engineers
 </div>
 
 <div align="center">
-    
-    |1      0      270    0       a1    |
-    |2     270     270    0     a2+d1   |
-    |3     90      270    0     a3+d2   |
-    |4      0       0     0     a4+d3   |
+
+    |n   |   θ   |    ∝   |  r  |     d     |
+    |1   |   0   |   270  |  0  |     a1    |
+    |2   |  270  |   270  |  0  |   a2+d1   |
+    |3   |  90   |   270  |  0  |   a3+d2   |
+    |4   |   0   |    0   |  0  |   a4+d3   |
 
 
 </div>
