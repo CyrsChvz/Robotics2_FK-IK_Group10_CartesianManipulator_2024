@@ -254,7 +254,7 @@ substituting the angles gained from the theta, alpha, rotation and distance to t
 </div>
 
 <div align="center">
-     
+    
     |  cos(0)   -sin(0)*cos(270)   sin(0)*sin(270)   0*cos(0) |
     |  sin(0)    cos(0)*cos(270)  -cos(0)*sin(270)   0*sin(0) |
     |    0          sin(270)           cos(α)          a1     |
