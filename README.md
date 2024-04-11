@@ -254,27 +254,27 @@ substituting the angles gained from the theta, alpha, rotation and distance to t
 </div>
 
 <div align="center">
-    
-    | cos(0)  -sin(0)*cos(270)  sin(0)*sin(270)  0*cos(0) |
-    | sin(0)   cos(0)*cos(270) -cos(0)*sin(270)  0*sin(0) |
-    |  0          sin(270)          cos(α)         a1     |
-    |  0             0                0             1     |
+     
+    |  cos(0)   -sin(0)*cos(270)   sin(0)*sin(270)   0*cos(0) |
+    |  sin(0)    cos(0)*cos(270)  -cos(0)*sin(270)   0*sin(0) |
+    |    0          sin(270)           cos(α)          a1     |
+    |    0             0                 0              1     |
 
     | cos(270)  -sin(270)*cos(0)  sin(270)*sin(0)  0*cos(270) |
     | sin(270)   cos(270)*cos(0) -cos(270)*sin(0)  a*sin(270) |
-    |  0          sin(0)              cos(0)        a2 + d1   |
-    |  0            0                   0               1     |
+    |    0          sin(0)            cos(0)        a2 + d1   |
+    |    0            0                 0              1      |
 
-    | cos(90)  -sin(90)*cos(270)  sin(θ)*sin(90)  0*cos(90) |
-    | sin(90)   cos(90)*cos(90)  -cos(θ)*sin(90)  0*sin(90) |
-    |  0           sin(270)          cos(90)       a3 + d2  |
-    |  0              0                0              1     |
+    | cos(90)   -sin(90)*cos(270)   sin(θ)*sin(90)  0*cos(90) |
+    | sin(90)    cos(90)*cos(90)   -cos(θ)*sin(90)  0*sin(90) |
+    |    0          sin(270)           cos(90)       a3 + d2  |
+    |    0             0                 0              1     |
 
-    | cos(0)  -sin(0)*cos(0)  sin(0)*sin(0)  0*cos(0)  |
-    | sin(0)   cos(0)*cos(0) -cos(0)*sin(0)  0*sin(90) |
-    |  0          sin(α)          cos(α)      a4 +d3   |
-    |  0            0               0           1      |
-    
+    |  cos(0)    -sin(0)*cos(0)    sin(0)*sin(0)    0*cos(0)  |
+    |  sin(0)     cos(0)*cos(0)   -cos(0)*sin(0)    0*sin(90) |
+    |    0            sin(α)          cos(α)         a4 +d3   |
+    |    0              0               0              1      |
+     
 ![htm](https://github.com/CyrsChvz/Robotics2_FK-IK_Group10_CartesianManipulator_2024/assets/157597327/0623c414-ca8a-4ba3-8470-85a3016b8bc9)
 
 </div>
